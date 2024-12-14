@@ -17,10 +17,15 @@ try:
            st.write('Raw Data')
            df = pd.read_csv(url, names=names, on_bad_lines='skip')
            df
+           st.write('X')
+           X = df.drop(columns=['id','class'])
+           X
+
+          st.write('y')
+          y= df['class']
+          y
 except Exception as e:
     st.write(f"Error: {e}")
     st.write("Check the URL or file location and try again.")
 
 
-
-print(df.info())
