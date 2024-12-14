@@ -18,7 +18,7 @@ try:
            df = pd.read_csv(url, names=names, on_bad_lines='skip')
            df
            st.write('X')
-           X = df.drop(columns=['id','class'])
+           X = df.drop(columns=['id','class'], axis=1)
            X
 
           st.write('y')
