@@ -29,3 +29,5 @@ except Exception as e:
     st.write("Check the URL or file location and try again.")
 
 
+with st.expander('Data Visualization'):
+       st.scatter_chart(data=df, x='uniform_cell_size', y='uniform_cell_shape')
