@@ -20,3 +20,6 @@ try:
 except Exception as e:
     st.write(f"Error: {e}")
     st.write("Check the URL or file location and try again.")
+
+
+df.head()
