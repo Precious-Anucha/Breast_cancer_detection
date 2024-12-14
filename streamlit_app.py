@@ -35,4 +35,4 @@ with st.expander('Data Visualization'):
 
 with st.sidebar:
        st.header('Input your info')
-       st.slide('What is your id')
+       st.slider('What is your id')
