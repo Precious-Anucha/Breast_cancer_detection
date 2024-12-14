@@ -33,6 +33,6 @@ with st.expander('Data Visualization'):
        st.scatter_chart(data=df, x='uniform_cell_size', y='uniform_cell_shape')
 
 
-with st.sidebar()
+with st.sidebar():
        st.header('Input your info')
        st.slide('What is your id')
