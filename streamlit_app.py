@@ -21,9 +21,9 @@ try:
            X = df.drop(columns=['id','class'], axis=1)
            X
 
-          st.write('y')
-          y= df['class']
-          y
+           st.write('y')
+           y= df['class']
+           y
 except Exception as e:
     st.write(f"Error: {e}")
     st.write("Check the URL or file location and try again.")
