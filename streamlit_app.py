@@ -21,7 +21,7 @@ names = ['id', 'clump_thickness', 'uniform_cell_size', 'uniform_cell_shape',
        'bland_chromatin', 'normal_nucleoli', 'mitoses', 'class']
 try:
     df = pd.read_csv(url, names=names, on_bad_lines='skip')
-    print(df.head())
+    df
 except Exception as e:
     print(f"Error: {e}")
     print("Check the URL or file location and try again.")
