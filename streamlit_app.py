@@ -36,3 +36,6 @@ with st.expander('Data Visualization'):
 with st.sidebar:
        st.header('Input your info')
        st.slider('What is your id')
+       number = st.number_input(
+    "What is your id", value=None, placeholder="Type a number..."
+)
