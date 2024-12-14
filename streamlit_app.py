@@ -23,4 +23,4 @@ except Exception as e:
 
 
 
-st.write(df.info())
+print(df.info())
