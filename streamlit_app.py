@@ -19,9 +19,11 @@ st.info('This application is used to detect breast Cancer!')
 #url = 'https://github.com/Precious-Anucha/Breast_cancer_detection/blob/master/wdbc.data'
 
 #url = 'https://github.com/Precious-Anucha/Breast_cancer_detection/blob/master/breast-cancer-wisconsin.data'
-#names = ['id', 'clump_thickness', 'uniform_cell_size', 'uniform_cell_shape',
+"""
+names = ['id', 'clump_thickness', 'uniform_cell_size', 'uniform_cell_shape',
        'marginal_adhesion', 'single_epithelial_size', 'bare_nuclei',
        'bland_chromatin', 'normal_nucleoli', 'mitoses', 'class']
+"""
 url = "https://archive.ics.uci.edu/ml/machine-learning-databases/breast-cancer-wisconsin/breast-cancer-wisconsin.data"
 names = ['id', 'clump_thickness', 'uniform_cell_size', 'uniform_cell_shape',
        'marginal_adhesion', 'single_epithelial_size', 'bare_nuclei',
