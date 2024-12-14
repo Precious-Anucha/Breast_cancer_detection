@@ -15,6 +15,9 @@ st.info('This application is used to detect breast Cancer!')
 #df = pd.read_csv(url, header=None, on_bad_lines='skip')
 
 
+
+#url = 'https://github.com/Precious-Anucha/Breast_cancer_detection/blob/master/wdbc.data'
+
 url = 'https://raw.githubusercontent.com/Precious-Anucha/Breast_cancer_detection/main/breast-cancer-wisconsin.data'
 names = ['id', 'clump_thickness', 'uniform_cell_size', 'uniform_cell_shape',
        'marginal_adhesion', 'single_epithelial_size', 'bare_nuclei',
