@@ -23,5 +23,5 @@ try:
     df = pd.read_csv(url, names=names, on_bad_lines='skip')
     df
 except Exception as e:
-    print(f"Error: {e}")
-    print("Check the URL or file location and try again.")
+    st.write(f"Error: {e}")
+    st.write("Check the URL or file location and try again.")
