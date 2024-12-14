@@ -7,5 +7,5 @@ st.info('This application is used to detect breast Cancer!')
 
 
 
-df = pd.read_csv('https://github.com/raviolli77/machineLearning_breastCancer_Python/blob/master/src/pyspark/data/data.txt')
+df = pd.read_csv('https://github.com/Precious-Anucha/Breast_cancer_detection/blob/master/breast-cancer-wisconsin.data')
 df
