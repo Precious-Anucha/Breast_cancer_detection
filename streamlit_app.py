@@ -22,4 +22,4 @@ except Exception as e:
     st.write("Check the URL or file location and try again.")
 
 
-df
+df.info()
