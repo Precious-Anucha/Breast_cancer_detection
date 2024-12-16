@@ -39,3 +39,6 @@ with st.sidebar:
        number = st.number_input(
     "What is your id", value=None, placeholder="Type a number..."
 )
+
+
+st.write("Hello me philip")
