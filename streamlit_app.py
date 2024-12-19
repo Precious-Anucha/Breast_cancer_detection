@@ -17,6 +17,11 @@ try:
            st.write('Raw Data')
            df = pd.read_csv(url, names=names, on_bad_lines='skip')
            df
+           # Preprocess the data
+           df.replace('?',-99999, inplace=True)
+           df.axes
+
+df.drop(['id'], 1, inplace=True)
            st.write('X')
            X = df.drop(columns=['id','class'], axis=1)
            X
